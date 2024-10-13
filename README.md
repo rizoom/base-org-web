@@ -99,7 +99,7 @@ If you're a builder who wants to add or update your project on the [Base Ecosyst
    - url: Your project's website URL
    - imageUrl: Path to your project's logo image
 
-4. When adding and/or updating a logo, place a 192x192 pixel PNG file in the `web/apps/web/public/images/partners/`. The file should be named appropriately (e.g., your-project-name.png). The logo should be App Store / iconographic version, not a full wordmark.
+4. When adding and/or updating a logo, place a 192x192 pixel PNG file in the `web/apps/web/public/images/partners/`. The file should be named appropriately (e.g., your-project-name.png). The logo should be an App Store or Play Store iconographic version, not a full wordmark.
 
 5. Create a pull request with your changes.
 
