@@ -73,7 +73,9 @@ yarn workspace @app/bridge dev
 
 We welcome contributions to Base! To contribute, please see [CONTRIBUTING.md](CONTRIBUTING.md).
 
-## Updating the Base Ecosystem Page
+## Additional repository documentation
+
+### Updating the Base Ecosystem Page
 
 If you're a builder who wants to add or update your project on the [Base Ecosystem](https://base.org/ecosystem) page? Follow these steps:
 
