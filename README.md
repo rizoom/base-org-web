@@ -95,9 +95,9 @@ Are you a builder who wants to add or update your project on the Base Ecosystem 
    }
    ```
 
-   5. When adding and/or updating a logo, place a 192x192 pixel PNG file in the `web/apps/web/public/images/partners/`. The file should be named appropriately (e.g., your-project-name.png). The logo should be App Store / iconographic version, not a full wordmark.
+5. When adding and/or updating a logo, place a 192x192 pixel PNG file in the `web/apps/web/public/images/partners/`. The file should be named appropriately (e.g., your-project-name.png). The logo should be App Store / iconographic version, not a full wordmark.
 
-   6. Create a pull request with your changes.
+6. Create a pull request with your changes.
 
 By opening a PR to add your project, you authorize and license to Coinbase on a non-exclusive, worldwide, irrevocable, sublicensable, and royalty free basis to reproduce, distribute, transmit, make available, perform, display, or otherwise use the submitted Multimedia Assets for any purpose, including any marketing or promotional activities related to Base or Coinbase. Any goodwill associated with use of trademarks submitted in your Multimedia Assets will inure to your benefit. You further acknowledge and represent that you have all IP rights in the Multimedia Assets, that the Multimedia Assets do not infringe the rights of any third party, and that you have the right to grant this license to Coinbase.
 
