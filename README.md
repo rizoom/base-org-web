@@ -1,4 +1,5 @@
 ![Base](logo.webp)
+
 # Base Web
 
 Base is a secure, low-cost, developer-friendly Ethereum L2 built to bring the next billion users onchain. It's built on Optimism’s open-source [OP Stack](https://stack.optimism.io/).
@@ -67,6 +68,18 @@ yarn workspace @app/base-docs dev
 ```
 yarn workspace @app/bridge dev
 ```
+
+## Adding or updating a project on the Ecosystem page
+
+If you're a builder who wants to add or update your project on the Base Ecosystem page, follow these steps:
+
+1. Review the [ecosystem update template](.github/PULL_REQUEST_TEMPLATE/ecosystem-update.md) to see the information you'll need to provide.
+2. Update the `web/apps/web/src/data/ecosystem.json` with your project information.
+3. If adding a new logo, place it in the `web/apps/web/public/images/partners/` directory.
+4. Create a pull request with your changes.
+5. Our automated system will detect your ecosystem-related changes and update the PR description with the appropriate template. Please fill out all required information in the template.
+
+Note: Ensure you have all required information ready before starting your update. This includes project details, links, descriptions, and any necessary assets.
 
 ## Contribution
 
