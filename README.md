@@ -75,15 +75,13 @@ We welcome contributions to Base! To contribute, please see [CONTRIBUTING.md](CO
 
 ## Updating the Base Ecosystem Page
 
-Are you a builder who wants to add or update your project on the Base Ecosystem page? Follow these steps:
+If you're a builder who wants to add or update your project on the [Base Ecosystem](https://base.org/ecosystem) page? Follow these steps:
 
-1. First, review the [ecosystem update template](.github/PULL_REQUEST_TEMPLATE/ecosystem-update.md) to see what information you'll need to provide.
+1. Fork this repository.
 
-2. Fork this repository.
+2. Create a new branch for your changes.
 
-3. Create a new branch for your changes.
-
-4. Update the `web/apps/web/src/data/ecosystem.json` file with your project information. Each entry should follow this format:
+3. Update the `web/apps/web/src/data/ecosystem.json` with your project information. Each entry should follow this format:
 
    ```json
    {
@@ -95,9 +93,15 @@ Are you a builder who wants to add or update your project on the Base Ecosystem 
    }
    ```
 
-5. When adding and/or updating a logo, place a 192x192 pixel PNG file in the `web/apps/web/public/images/partners/`. The file should be named appropriately (e.g., your-project-name.png). The logo should be App Store / iconographic version, not a full wordmark.
+   - name: Your project's name (required)
+   - tags: An array with ONE of the following categories: BRIDGE, DAO, DEFI, GAMING, INFRA, NFT, ONRAMP, SOCIAL, WALLET, SECURITY (required)
+   - description: A brief description of your project, must be less than 200 characters (required)
+   - url: Your project's website URL (required)
+   - imageUrl: Path to your project's logo image (required)
 
-6. Create a pull request with your changes.
+4. When adding and/or updating a logo, place a 192x192 pixel PNG file in the `web/apps/web/public/images/partners/`. The file should be named appropriately (e.g., your-project-name.png). The logo should be App Store / iconographic version, not a full wordmark.
+
+5. Create a pull request with your changes.
 
 By opening a PR to add your project, you authorize and license to Coinbase on a non-exclusive, worldwide, irrevocable, sublicensable, and royalty free basis to reproduce, distribute, transmit, make available, perform, display, or otherwise use the submitted Multimedia Assets for any purpose, including any marketing or promotional activities related to Base or Coinbase. Any goodwill associated with use of trademarks submitted in your Multimedia Assets will inure to your benefit. You further acknowledge and represent that you have all IP rights in the Multimedia Assets, that the Multimedia Assets do not infringe the rights of any third party, and that you have the right to grant this license to Coinbase.
 
