@@ -69,11 +69,9 @@ yarn workspace @app/base-docs dev
 yarn workspace @app/bridge dev
 ```
 
-## Contribution
+## Contributing
 
 We welcome contributions to Base! To contribute, please see [CONTRIBUTING.md](CONTRIBUTING.md).
-
-## Additional repository documentation
 
 ### Updating the Base Ecosystem Page
 
@@ -109,7 +107,7 @@ By opening a PR to add your project, you authorize and license to Coinbase on a 
 
 **Note:** Submissions do not guarantee inclusion and all submissions are subject to review. Your project must be live on Base to potentially be included. Ensure all information is accurate and up-to-date.
 
-### Tips for a successful submission
+#### Tips for a successful submission
 
 Below are some general guidelines to help you prepare your submission:
 
@@ -121,4 +119,6 @@ Below are some general guidelines to help you prepare your submission:
 - No indication that users have been harmed considerably by any issue
 - No indication that issues have been concealed, ignored, or not addressed correctly in order to prevent new or similar issues from happening
 
-If you have any questions, please reach out to us in [Base Discord](https://base.org/discord).
+---
+
+If you have any questions, please reach out to us in #developer-chat in the [Base Discord](https://base.org/discord).
