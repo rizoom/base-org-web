@@ -80,9 +80,48 @@ We welcome contributions to Base! To contribute, please see [CONTRIBUTING.md](CO
 If you're a builder who wants to add or update your project on the Base Ecosystem page, follow these steps:
 
 1. Review the [ecosystem update template](.github/PULL_REQUEST_TEMPLATE/ecosystem-update.md) to see the information you'll need to provide.
-2. Update the `web/apps/web/src/data/ecosystem.json` with your project information.
+2. Update the `web/apps/web/src/data/ecosystem.json` with your project information. Each entry should follow this format:
+
+   ```json
+   {
+     "name": "Your Project Name",
+     "tags": ["category"],
+     "description": "A brief description of your project (less than 200 characters)",
+     "url": "https://your-project-url.com",
+     "imageUrl": "/images/partners/your-project-logo.png"
+   }
+   ```
+
 3. If adding a new logo, place it in the `web/apps/web/public/images/partners/` directory.
 4. Create a pull request with your changes.
 5. Our automated system will detect your ecosystem-related changes and update the PR description with the appropriate template. Please fill out all required information in the template.
 
-Note: Ensure you have all required information ready before starting your update. This includes project details, links, descriptions, and any necessary assets.
+## Updating the Base Ecosystem Page
+
+Are you a builder who wants to add or update your project on the Base Ecosystem page? Follow these steps:
+
+1. First, review the [ecosystem update template](.github/PULL_REQUEST_TEMPLATE/ecosystem-update.md) to see what information you'll need to provide.
+
+2. Fork this repository.
+
+3. Create a new branch for your changes.
+
+4. Update the `web/apps/web/src/data/ecosystem.json` file with your project information. Each entry should follow this format:
+
+   ```json
+   {
+     "name": "Your Project Name",
+     "tags": ["category"],
+     "description": "A brief description of your project (less than 200 characters)",
+     "url": "https://your-project-url.com",
+     "imageUrl": "/images/partners/your-project-logo.png"
+   }
+
+   5. When adding and/or updating a logo, place a 192x192 pixel PNG file in the `web/apps/web/public/images/partners/`. The file should be named appropriately (e.g., your-project-name.png). The logo should be App Store / iconographic version, not a full wordmark.
+
+   6. Create a pull request with your changes.
+   ```
+
+By opening a PR to add your project, you authorize and license to Coinbase on a non-exclusive, worldwide, irrevocable, sublicensable, and royalty free basis during to reproduce, distribute, transmit, make available, perform, display, or otherwise use the submitted Multimedia Assets for any purpose, including any marketing or promotional activities related to Base or Coinbase. Any goodwill associated with use of trademarks submitted in your Multimedia Assets will inure to your benefit. You further acknowledge and represent that you have all IP rights in the Multimedia Assets, that the Multimedia Assets do not infringe the rights of any third party, and that you have the right to grant this license to Coinbase.
+
+**Note:** Submissions do not guarantee inclusion and all submissions are subject to review. Your project must be LIVE on Base to be featured.Ensure all information is accurate and up-to-date. Incomplete submissions may delay the review process.
