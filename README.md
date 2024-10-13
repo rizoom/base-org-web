@@ -81,7 +81,7 @@ If you're a builder who wants to add or update your project on the [Base Ecosyst
 
 2. Create a new branch for your changes.
 
-3. Update the `web/apps/web/src/data/ecosystem.json` with your project information. Each entry should follow this format:
+3. Update the `web/apps/web/src/data/ecosystem.json` with your project information. All fields are required. Each entry should follow this format:
 
    ```json
    {
@@ -93,11 +93,11 @@ If you're a builder who wants to add or update your project on the [Base Ecosyst
    }
    ```
 
-   - name: Your project's name (required)
-   - tags: An array with ONE of the following categories: BRIDGE, DAO, DEFI, GAMING, INFRA, NFT, ONRAMP, SOCIAL, WALLET, SECURITY (required)
-   - description: A brief description of your project, must be less than 200 characters (required)
-   - url: Your project's website URL (required)
-   - imageUrl: Path to your project's logo image (required)
+   - name: Your project's name
+   - tags: An array with _one_ of the following categories: `bridge`, `dao`, `defi`, `gaming`, `infra`, `nft`, `onramp`, `social`, `wallet`, `security`
+   - description: A brief description of your project, must be less than 200 characters
+   - url: Your project's website URL
+   - imageUrl: Path to your project's logo image
 
 4. When adding and/or updating a logo, place a 192x192 pixel PNG file in the `web/apps/web/public/images/partners/`. The file should be named appropriately (e.g., your-project-name.png). The logo should be App Store / iconographic version, not a full wordmark.
 
