@@ -112,10 +112,8 @@ By opening a PR to add your project, you authorize and license to Coinbase on a 
 - App has been live on Base for at least 30 days
 - App has a Terms of Service and Privacy Policy
 - App supports HTTPS and 301 redirects HTTP requests
-- App is an actual app, not a TGE, ICO, airdrop, or other similar events
-- Signs of active development and/or community engagement can be found without concerning issues
-- No indication that users have been harmed considerably by any issue
-- No indication that issues have been concealed, ignored, or not addressed correctly in order to prevent new or similar issues from happening
+- App is not a TGE, ICO, airdrop, claim, or similar
+- Active development and community engagement can be observed without issue
 
 ---
 
