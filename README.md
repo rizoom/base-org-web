@@ -109,8 +109,6 @@ By opening a PR to add your project, you authorize and license to Coinbase on a 
 
 #### Tips for a successful submission
 
-Below are some general guidelines to help you prepare your submission:
-
 - App has been live on Base for at least 30 days
 - App has a Terms of Service and Privacy Policy
 - App supports HTTPS and 301 redirects HTTP requests
